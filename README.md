@@ -50,7 +50,7 @@ $>
 
 ####About This Gem####
 
-- This program is written using the ruby stdlib without any dependencies
+- This program is written using the ruby stdlib without any dependencies.
 - It's a wrapper of `wc` shell command. So, feel free to check `man wc` for more information.
 
 ####Next Steps####
@@ -65,7 +65,8 @@ Before reporting a problem check the issue list.
 
 ####About Me####
 
-More information [here](https://www.linkedin.com/pub/mehdi-farsi/48/ba9/336)
+More information [here](https://www.linkedin.com/pub/mehdi-farsi/48/ba9/336).
+
 Feel free to follow me on [Twitter](https://twitter.com/farsi_mehdi).
 
 thanks ! :)
