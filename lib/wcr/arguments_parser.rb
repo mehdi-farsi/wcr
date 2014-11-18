@@ -1,4 +1,3 @@
-
 require 'optparse'
 
 module WordCountRecursive
@@ -32,7 +31,8 @@ module WordCountRecursive
       $stderr.puts o.banner
       exit
     end
-      [ARGV.join(' '), options]
+    # TODO: ugly code to refactor :(
+      [(ARGV.length > 0 ? ARGV.join(' ') : nil), options]
     end
   end
 end
