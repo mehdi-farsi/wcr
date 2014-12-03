@@ -3,13 +3,17 @@ require 'optparse'
 module WordCountRecursive
   class ArgumentsParser
     def parse
-      options = {command_opts: ""}
+      options = {command_opts: "", hidden_files: "| grep -v '/\\.'"}
 
       o = ::OptionParser.new do |opts|
-        opts.banner = "usage: wc [-clmw] [file ...]"
+        opts.banner = "usage: wc [-clhmw] [file ...]"
         
         opts.on("-c") do |c|
           options[:command_opts] += " -c"
+        end
+
+        opts.on("-h") do |h|
+          options[:hidden_files] = ""
         end
 
         opts.on("-l") do |l|
