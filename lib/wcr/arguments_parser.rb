@@ -27,6 +27,10 @@ module WordCountRecursive
         opts.on("-w") do |w|
           options[:command_opts] += " -w"
         end
+
+        opts.on("-v", "--version") do |v|
+          options[:version] = "wcr - v#{::WordCountRecursive::VERSION}"
+        end
       end
     begin
       o.parse!
