@@ -1,7 +1,11 @@
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib)
+require "wcr"
+
 Gem::Specification.new do |s|
   s.name          = 'wcr'
-  s.version       = '0.1.0'
-  s.date          = '2014-11-18'
+  s.version       = WordCountRecursive::VERSION
+  s.date          = Time.now.strftime("%F")
   s.summary       = "wc-recursive"
   s.description   = "A wrapper on wc command. Permit to execute wc recursively with a more flexible argument parser."
   s.homepage      = 'https://github.com/mehdi-farsi/wcr'
