@@ -4,7 +4,7 @@ require "wcr"
 
 Gem::Specification.new do |s|
   s.name          = 'wcr'
-  s.version       = WordCountRecursive::VERSION
+  s.version       = WCR::VERSION
   s.date          = Time.now.strftime("%F")
   s.summary       = "wc-recursive"
   s.description   = "A wrapper on wc command. Permit to execute wc recursively with a more flexible argument parser."

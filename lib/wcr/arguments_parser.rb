@@ -1,6 +1,6 @@
 require 'optparse'
 
-module WordCountRecursive
+module WCR
   class ArgumentsParser
     def parse
       options = {command_opts: "", hidden_files: "| grep -v '/\\.'"}
@@ -29,7 +29,7 @@ module WordCountRecursive
         end
 
         opts.on("-v", "--version") do |v|
-          options[:version] = "wcr - v#{::WordCountRecursive::VERSION}"
+          options[:version] = "wcr - v#{::WCR::VERSION}"
         end
       end
     begin

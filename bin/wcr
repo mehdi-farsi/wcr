@@ -5,4 +5,4 @@ $LOAD_PATH.unshift(wcr_dir) unless $LOAD_PATH.include?(wcr_dir)
 
 require 'wcr'
 
-WordCountRecursive::Command.new.wcr
+WCR::Command.new.wcr

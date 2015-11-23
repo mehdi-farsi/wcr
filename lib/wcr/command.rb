@@ -1,7 +1,7 @@
-module WordCountRecursive
+module WCR
   class Command
     def initialize
-      @paths, @options = ::WordCountRecursive::ArgumentsParser.new.parse
+      @paths, @options = ::WCR::ArgumentsParser.new.parse
 
       if @options.include? :version
         puts @options[:version]
