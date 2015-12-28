@@ -1,6 +1,6 @@
 ###WordCount-Recursive###
 
-A wrapper on `wc` shell command. This command permit to execute `wc` recursively with a more flexible argument parser.
+A wrapper on `wc` shell command. This command permits to execute `wc` recursively with a more flexible argument parser.
 
 ####Installation####
 
