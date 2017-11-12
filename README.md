@@ -1,12 +1,12 @@
-###WordCount-Recursive###
+### WordCount-Recursive
 
 A wrapper on `wc` shell command. This command permits to execute `wc` recursively with a more flexible argument parser.
 
-####Installation####
+#### Installation
 
 `gem install wcr`
 
-####Usage####
+#### Usage
 
 Example of Project Architecture:
 
@@ -23,7 +23,7 @@ wcr/
 |--wcr.gemspec
 ```
 
-#####execute `wcr` on `lib` folder:#####
+##### execute `wcr` on `lib` folder:
 
 Output:
 
@@ -48,20 +48,20 @@ $> wcr -l ./lib -w ./bin
 $>
 ```
 
-####Options####
+#### Options
 
 Use `-h` options to display hidden files.
 
-####About This Gem####
+#### About This Gem
 
 - This program is written using the ruby stdlib without any dependencies.
 - It's a wrapper of `wc` shell command. So, feel free to check `man wc` for more information.
 
-####Issues####
+#### Issues
 
 Before reporting a problem check the issue list.
 
-####About Me####
+#### About Me
 
 More information [here](https://www.linkedin.com/pub/mehdi-farsi/48/ba9/336).
 
